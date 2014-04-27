@@ -4,7 +4,7 @@ makeCacheMatrix <- function(x = matrix())
         mymatrix <- NULL 
         set <- function(y) 
 		{
-                        x <<- y #reasignation of "x"
+                        x <<- y #reassignation of "x"
                         mymatrix <<- NULL
         	}
         get <- function() x #return the matrix specified by the user
